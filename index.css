@@ -1,0 +1,117 @@
+body{
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/14934581/pexels-photo-14934581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+  } 
+  
+  h1{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: whitesmoke;
+    filter: drop-shadow(.5rem .5rem 1rem #dae6dd)
+  }
+  
+  h2{
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    filter: drop-shadow(.3rem .3rem 1rem #dae6dd)
+  }
+  
+  
+  input{
+    height: 48px;
+    align-items: center;
+    border: 2px solid ;
+    box-sizing: border-box;
+    justify-content: center;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    font-family: 'Oswald', sans-serif;
+  
+  }
+  
+  /* CSS */
+  .button-58 {
+    align-items: center;
+    background-color: #06f;
+    border: 2px solid #06f;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-58:focus {
+    color: #171e29;
+  }
+  
+  .button-58:hover {
+    background-color: #3385ff;
+    border-color: #3385ff;
+    fill: #06f;
+  }
+  
+  .button-58:active {
+    background-color: #3385ff;
+    border-color: #3385ff;
+    fill: #06f;
+  }
+  
+  .results{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    filter: drop-shadow(.8rem .8rem 1rem #dae6dd)
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+    body{
+      background-size: contain;
+    }
+  
+    h1{
+      font-size: 28px;
+    }
+  
+    h2{
+      font-size: 24px;
+    }
+  
+    input{
+      height: 40px;
+      font-size: 14px;
+    }
+  
+    .button-58 {
+      height: 40px;
+      font-size: 14px;
+      min-width: 100px;
+    }
+  
+    .results{
+      font-size: 28px;
+    }
+  
+  }
